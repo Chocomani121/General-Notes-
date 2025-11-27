@@ -5,7 +5,7 @@
 - Import SQLAlchemy to flask
 
 # Commands
- - Adding user, using cmd
+ - Adding User, using cmd
 ```
 from app import app, db, User
 with app.app_context():
@@ -16,7 +16,7 @@ with app.app_context():
     users = User.query.all()
     print(users)
 ```
-- Insert more users
+- Insert more Users
 ```
 with app.app_context():
     user2 = User(username='Alice', email='alice@example.com', password='test123')
@@ -26,13 +26,19 @@ with app.app_context():
 
     print(User.query.all())
 ```
+- Select User by ID
+```
+with app.app_context():
+    user = User.query.get(1)   # get user with id = 1
+    print(user.id, user.username, user.email)
+```
 - Query Users
 ```
 with app.app_context():
     user = User.query.filter_by(username='Corey').first()
     print(user)
 ```
-- See user details
+- See User details
 ```
 with app.app_context():
     for u in User.query.all():
@@ -45,9 +51,10 @@ with app.app_context():
     db.session.delete(user)
     db.session.commit()
 ```
-- Fix hashing (if password is not hased yet
+- Fix hashing (if password is not hased yet)
 ```
 from werkzeug.security import generate_password_hash
 
 hashed = generate_password_hash("password123")
 ```
+
