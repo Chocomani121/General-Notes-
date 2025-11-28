@@ -9,7 +9,9 @@ Database Creation
 1.Create > create_db.py
 2.Inside create_db.py "folder"
 
-from app import db, app
+CMD
+> python
+> from app import app, db, User //* to load Python REPL into your memory. *//
 
 # Create all database tables within the Flask app context
 with app.app_context():
