@@ -1,4 +1,4 @@
-# SQLAlchemy V.2.0.44 Commands CMD 
+# - SQLAlchemy V.2.0.44 - 
 - CMD database
 - Set up: import module through cmd/powershell
 - pip install flask-sqlalchemy
