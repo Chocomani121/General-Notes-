@@ -105,4 +105,14 @@ with app.app_context():
     db.session.add(post)
     db.session.commit()
 ```
+- Get Specific User Post *Note - print inside the loop must be indented by 4 spaces, not 1.
+```
+with app.app_context():
+    user = User.query.get(1)
+    print("User:", user.username)
+
+    for p in user.posts:
+        print("Post:", p.id, p.title)
+
+```
 
