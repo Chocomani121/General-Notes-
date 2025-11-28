@@ -3,7 +3,15 @@
 - Set up: import module through cmd/powershell
 - pip install flask-sqlalchemy
 - Import SQLAlchemy to flask
-
+#
+```
+Database Creation
+ > python
+ > db.create_all()
+ -- folder name would appear ("site.db)
+ > from flaskblog import User, Post
+ -- this is to import user and post 
+```
 # Commands
  - Adding User, using cmd
 ```
