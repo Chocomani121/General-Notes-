@@ -59,13 +59,30 @@ hashed = generate_password_hash("password123")
 ```
 #
 POST Commands
-/-samp-/
+- See all Post
 ```
 with app.app_context():
     posts = Post.query.all()
     print(posts)
 ```
 - Print Post Details
-  
-
+```
+with app.app_context():
+    for p in Post.query.all():
+        print(p.id, p.title, p.content, p.author.username)
+```
+- Get Post
+```
+with app.app_context():
+    user = User.query.get(1)
+    for p in user.posts:
+        print(p.id, p.title)
+```
+- Create New Post
+```
+with app.app_context():
+    post = Post(title="Hello", content="My first post", user_id=1)
+    db.session.add(post)
+    db.session.commit()
+```
 
