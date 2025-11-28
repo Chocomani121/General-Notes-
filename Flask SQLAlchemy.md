@@ -6,6 +6,18 @@
 #
 ```
 Database Creation
+1.Create > create_db.py
+2.Inside create_db.py "folder"
+
+from app import db, app
+
+# Create all database tables within the Flask app context
+with app.app_context():
+    db.create_all()
+    print("✔ Database created successfully!")
+
+
+# CMD
  > python
  > db.create_all()
  -- folder name would appear ("site.db)
