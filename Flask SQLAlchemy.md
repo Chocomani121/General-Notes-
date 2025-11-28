@@ -58,5 +58,14 @@ from werkzeug.security import generate_password_hash
 hashed = generate_password_hash("password123")
 ```
 #
-- POST
+POST Commands
+/-samp-/
+```
+with app.app_context():
+    posts = Post.query.all()
+    print(posts)
+```
+- Print Post Details
+  
+
 
