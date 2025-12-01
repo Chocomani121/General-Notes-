@@ -1,3 +1,4 @@
+# pip install flask-bcrypt
 # Applying hash password CMD
  - from flask_bcrypt import Bcrypt
 >>> bcrypt = Bcrypt()
