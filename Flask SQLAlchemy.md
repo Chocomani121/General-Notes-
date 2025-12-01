@@ -21,6 +21,13 @@ or
 >>> with app.app_context():
 ...     db.create_all()
 ...
+>>> from app import app, db
+>>> from app.models import User
+>>> with app.app_context():
+...     for u in User.query.all():
+...             printer(u.username)
+...
+
 
 
 # Create all database tables within the Flask app context
