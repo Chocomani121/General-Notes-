@@ -57,12 +57,13 @@ or
 >>> with app.app_context():
 ...     db.create_all()
 ...
->>> from app import app, db
->>> from app.models import User
->>> with app.app_context():
-...     for u in User.query.all():
-...             printer(u.username)
-...
+from run import app
+from app import models
+from app.models import User
+
+with app.app_context():
+    u = User.query.get(1)
+    print(u.id, u.username, u.email)
 
 
 
