@@ -3,7 +3,10 @@
 - Set up: import module through cmd/powershell
 - pip install flask-sqlalchemy
 - Import SQLAlchemy to flask
-#
+
+# Updated Package Structure 
+<img width="229" height="326" alt="image" src="https://github.com/user-attachments/assets/5bbd8084-99b5-4242-8470-5af8b9503412" />
+
 ```
 Database Creation
 1.Create > create_db.py
@@ -15,13 +18,13 @@ CMD
 or
 > updated file package structure
 > from app import db
-> from app.models import User, Post    
+> from app.models import User, Post  
+
 
 # Create all database tables within the Flask app context
 with app.app_context():
     db.create_all()
     print("✔ Database created successfully!")
-<img width="229" height="326" alt="image" src="https://github.com/user-attachments/assets/a9aec6ce-c5bc-461e-9d2b-c9427e27b4cf" />
 
 
 # CMD
