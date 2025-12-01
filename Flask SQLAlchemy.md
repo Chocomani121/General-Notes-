@@ -4,6 +4,42 @@
 - pip install flask-sqlalchemy
 - Import SQLAlchemy to flask
 
+Package           Version
+----------------- -------
+aiofiles          25.1.0
+bcrypt            5.0.0
+blinker           1.9.0
+click             8.3.1
+colorama          0.4.6
+dict-toolbox      5.0.0
+dnspython         2.8.0
+email-validator   2.3.0
+Flask             3.1.2
+Flask-Admin       2.0.2
+Flask-Bcrypt      1.0.1
+Flask-SQLAlchemy  3.1.1
+Flask-WTF         1.2.2
+greenlet          3.2.4
+idna              3.11
+itsdangerous      2.2.0
+Jinja2            3.1.6
+lazy-object-proxy 1.12.0
+MarkupSafe        3.0.3
+msgpack           1.1.2
+nest-asyncio      1.6.0
+pip               25.3
+pop               27.1.0
+pop-config        12.0.4
+pop-loop          1.1.0
+PyYAML            6.0.3
+rend              7.0.2
+sniffio           1.3.1
+SQLAlchemy        2.0.44
+toml              0.10.2
+typing_extensions 4.15.0
+Werkzeug          3.1.3
+WTForms           3.2.1
+
 # Updated Package Structure 
 <img width="229" height="326" alt="image" src="https://github.com/user-attachments/assets/5bbd8084-99b5-4242-8470-5af8b9503412" />
 
