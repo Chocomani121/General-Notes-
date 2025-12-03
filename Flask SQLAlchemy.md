@@ -72,6 +72,7 @@ with app.app_context():
     db.create_all()
     print("✔ Database created successfully!")
 
+token from itsdangerous import URLSafeTimedSerializer as Serializer - for password
 
 #Post
 >>> with app.app_context():
