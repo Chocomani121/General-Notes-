@@ -73,6 +73,13 @@ with app.app_context():
     print("✔ Database created successfully!")
 
 
+#Post
+>>> with app.app_context():
+...     posts = Post.query.all()
+...     for p in post:
+...             print(p.id, p.title, p.date_posted)
+
+
 # CMD
  > python
  > db.create_all()
