@@ -39,6 +39,7 @@ toml              0.10.2
 typing_extensions 4.15.0
 Werkzeug          3.1.3
 WTForms           3.2.1
+
 ```
 # Updated Package Structure 
 
