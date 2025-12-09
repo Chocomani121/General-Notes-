@@ -1,3 +1,37 @@
+- Flask Installation
+- Note * Python Version need to be up to date.
+```
+CMD
+python --version
+```
+```
+Create venv/virtual enviroment
+- python -m venv
+- pip install Flask
+```
+```
+Sample Flask
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello, Flask!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+this it to check if the app is running well
+
+#CMD - to run
+python app.py
+or
+http://127.0.0.1:5000/
+
+```
+
+
 #  SQLAlchemy V.2.0.44 DB Set up
 - CMD database
 - Set up: import module through cmd/powershell
