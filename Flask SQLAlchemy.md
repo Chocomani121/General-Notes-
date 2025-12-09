@@ -41,7 +41,6 @@ Werkzeug          3.1.3
 WTForms           3.2.1
 ```
 # Updated Package Structure 
-<img width="229" height="326" alt="image" src="https://github.com/user-attachments/assets/5bbd8084-99b5-4242-8470-5af8b9503412" />
 
 ```
 Database Creation
