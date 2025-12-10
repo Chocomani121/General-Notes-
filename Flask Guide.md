@@ -1,6 +1,7 @@
 - Official link for flask set up installtion guide: https://flask.palletsprojects.com/en/stable/installation/#python-version
 - Flask Installation
 - Note * Python Version need to be up to date.
+- venv\Scripts\activate to activate env
 ```
 CMD
 python --version
