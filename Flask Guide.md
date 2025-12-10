@@ -1,4 +1,4 @@
-- python3.14 -m pip install -r requirements.txt - for the requirements and packages.
+- python3.14 -m pip install -r requirements.txt || for the requirements and packages.
 - Official link for flask set up installtion guide: https://flask.palletsprojects.com/en/stable/installation/#python-version
 - Flask Installation
 - Note * Python Version need to be up to date.
